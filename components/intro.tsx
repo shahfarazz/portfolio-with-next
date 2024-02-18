@@ -97,7 +97,7 @@ export default function Intro() {
 
 				<a
 					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 hover:dark:bg-white/5"
-					href="https://www.linkedin.com/in/shah-faraz/overlay/1708284942700/single-media-viewer/?profileId=ACoAADXXDfIBMRfvuEwI_Vi0dPFnDx2exPTsk2A"
+					href="https://www.linkedin.com/in/shah-faraz/overlay/1708294686249/single-media-viewer/?profileId=ACoAADXXDfIBMRfvuEwI_Vi0dPFnDx2exPTsk2A"
 					target="_blank"
 				>
 					View my CV{' '}
