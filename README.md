@@ -41,3 +41,4 @@ Feel the magic as you explore the code that brings my portfolio to life! 🌟✨
 5. Open your browser and visit [http://localhost:3000](http://localhost:3000)
 
 Happy coding! 🚀
+# personal-portfolio
