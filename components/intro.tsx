@@ -63,7 +63,7 @@ export default function Intro() {
 				animate={{ opacity: 1, y: 0 }}
 			>
 				<span className="font-bold">
-					🚀 Hello World!, I'm Faraz UlHaq Shah.
+					🚀 Hello World!, I'm Faraz UlHaq Shah the great.
 				</span>{' '}
 				I'm a <span className="font-bold">software developer</span>.
 				with a passion for creating{' '}
