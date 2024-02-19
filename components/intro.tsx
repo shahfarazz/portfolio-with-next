@@ -20,6 +20,9 @@ export default function Intro() {
 			id="home"
 			className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
 		>
+			<span className="font-bold">
+				This Website is currently a work in progress...
+			</span>{' '}
 			<div className="flex items-center justify-center">
 				<div className="relative">
 					<motion.div
@@ -56,7 +59,6 @@ export default function Intro() {
 					</motion.span>
 				</div>
 			</div>
-
 			<motion.h1
 				className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl"
 				initial={{ opacity: 0, y: 100 }}
@@ -72,7 +74,6 @@ export default function Intro() {
 				</span>{' '}
 				Let's innovate together! 💻✨
 			</motion.h1>
-
 			<motion.div
 				className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
 				initial={{ opacity: 0, y: 100 }}
