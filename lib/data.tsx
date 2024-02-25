@@ -39,6 +39,8 @@ type Experience = {
 	description: React.ReactNode;
 	icon: React.ReactNode;
 	date: string;
+	// add an optional type of link
+	link?: string;
 };
 
 export const experiencesData: Experience[] = [
@@ -84,6 +86,47 @@ export const experiencesData: Experience[] = [
 		),
 		icon: <FaReact />,
 		date: 'Jun 2022 - Aug 2022',
+	},
+	{
+		title: 'Cloud Computing Project (click to view)',
+		company: 'Virginia Tech',
+		description: (
+			<ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
+				<li className="mb-2">
+					🚀 Deployed a full-stack web application on AWS, utilizing
+					EC2 instances for application hosting and RDS for relational
+					database management.
+				</li>
+				<li className="mb-2">
+					🔧 Configured Amazon Linux 2023 with Tomcat for server
+					management and integrated a MySQL database across AWS's
+					public and private instances, ensuring secure and scalable
+					operations.
+				</li>
+				<li className="mb-2">
+					🛠 Showcased adeptness in AWS infrastructure configuration,
+					including meticulous security group setups and EC2 instance
+					deployment.
+				</li>
+				<li className="mb-2">
+					🌐 Rolled out a React-based frontend application via Tomcat,
+					demonstrating expertise in web application deployment.
+				</li>
+				<li className="mb-2">
+					🏷 Demonstrated proficiency in custom domain integration with
+					the AWS-hosted application through detailed DNS
+					configurations.
+				</li>
+				<li className="mb-2">
+					📈 Underlined proficiency in cloud-based architecture and
+					deployment methodologies, ensuring a scalable and efficient
+					web solution.
+				</li>
+			</ul>
+		),
+		icon: React.createElement(LuGraduationCap),
+		date: 'Aug 2022 - Dec 2022',
+		link: 'http://faraznidhibookstore.me/FarazBookstoreReactTransact/',
 	},
 ];
 

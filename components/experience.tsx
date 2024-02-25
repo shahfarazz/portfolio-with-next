@@ -16,6 +16,12 @@ export default function Experience() {
 	const { ref } = useSectionInView('Experience');
 	const { theme } = useTheme();
 
+	function ClicksLink(item: any) {
+		if (item.link) {
+			window.open(item.link, '_blank');
+		}
+	}
+
 	return (
 		<section
 			id="experience"
@@ -53,7 +59,10 @@ export default function Experience() {
 								fontSize: '1.5rem',
 							}}
 						>
-							<h3 className="font-semibold capitalize">
+							<h3
+								className="font-semibold capitalize"
+								onClick={() => ClicksLink(item)}
+							>
 								{item.title}
 							</h3>
 							<p className="font-normal !mt-0">{item.company}</p>
