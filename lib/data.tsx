@@ -88,7 +88,7 @@ export const experiencesData: Experience[] = [
 		date: 'Jun 2022 - Aug 2022',
 	},
 	{
-		title: 'Cloud Computing Project (click to view)',
+		title: 'Cloud Computing Project',
 		company: 'Virginia Tech',
 		description: (
 			<ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
@@ -126,7 +126,7 @@ export const experiencesData: Experience[] = [
 		),
 		icon: React.createElement(LuGraduationCap),
 		date: 'Aug 2022 - Dec 2022',
-		link: 'http://faraznidhibookstore.me/FarazBookstoreReactTransact/',
+		// link: 'http://faraznidhibookstore.me/FarazBookstoreReactTransact/',
 	},
 ];
 
