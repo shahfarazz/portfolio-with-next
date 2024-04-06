@@ -20,9 +20,6 @@ export default function Intro() {
 			id="home"
 			className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
 		>
-			<span className="font-bold">
-				This Website is currently a work in progress...
-			</span>{' '}
 			<div className="flex items-center justify-center">
 				<div className="relative">
 					<motion.div
@@ -34,7 +31,7 @@ export default function Intro() {
 						}}
 					>
 						<Image
-							src="https://media.licdn.com/dms/image/D4D35AQH6UFwU_IjGdA/profile-framedphoto-shrink_400_400/0/1692546481662?e=1708891200&v=beta&t=oTFkizM_SWVvnKfiw8OjMzeCpkMJkCOqWhiESZfddew"
+							src="/faraz-profile-pic.png"
 							alt="Faraz UlHaq Shah portrait"
 							width="192"
 							height="192"
