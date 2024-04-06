@@ -25,7 +25,7 @@ export default function Experience() {
 
 	const DynamicVideo = dynamic(
 		() => {
-			return import('./VideoComponent');
+			return import('./videocomponent');
 		},
 		{ ssr: false } // This will only load the component on client side
 	);
