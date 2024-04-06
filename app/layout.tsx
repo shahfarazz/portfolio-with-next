@@ -13,7 +13,8 @@ export const metadata = {
 	title: 'Faraz Shah | Personal Portfolio',
 	description:
 		'Faraz UlHaq Shah is a full-stack developer with 2 years of experience.',
-	image: 'https://media.licdn.com/dms/image/D4D35AQH6UFwU_IjGdA/profile-framedphoto-shrink_400_400/0/1692546481662?e=1708891200&v=beta&t=oTFkizM_SWVvnKfiw8OjMzeCpkMJkCOqWhiESZfddew',
+	// get from public/faraz-profile-pic.png
+	image: 'public/faraz-profile-pic.png',
 };
 
 export default function RootLayout({
