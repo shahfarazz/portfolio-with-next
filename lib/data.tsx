@@ -41,6 +41,8 @@ type Experience = {
 	date: string;
 	// add an optional type of link
 	link?: string;
+	//add an optional type of video which allows for a video to be displayed
+	video?: string;
 };
 
 export const experiencesData: Experience[] = [
@@ -64,6 +66,7 @@ export const experiencesData: Experience[] = [
 		),
 		icon: React.createElement(CgWorkAlt),
 		date: 'May 2023 - Jul 2023',
+		video: '/rehnaa-showcase.MP4',
 	},
 
 	{

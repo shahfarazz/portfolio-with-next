@@ -11,6 +11,7 @@ import { experiencesData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 import { useTheme } from '@/context/theme-context';
 import { FaReact } from 'react-icons/fa'; // Import the FaReact icon
+import dynamic from 'next/dynamic';
 
 export default function Experience() {
 	const { ref } = useSectionInView('Experience');
@@ -21,6 +22,13 @@ export default function Experience() {
 			window.open(item.link, '_blank');
 		}
 	}
+
+	const DynamicVideo = dynamic(
+		() => {
+			return import('./VideoComponent');
+		},
+		{ ssr: false } // This will only load the component on client side
+	);
 
 	return (
 		<section
@@ -69,6 +77,7 @@ export default function Experience() {
 							{/* <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75"> */}
 							{item.description}
 							{/* </p> */}
+							<DynamicVideo src={item.video || ''} />
 						</VerticalTimelineElement>
 					</React.Fragment>
 				))}
