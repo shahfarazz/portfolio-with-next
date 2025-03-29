@@ -22,19 +22,16 @@ Explore the journey of my work in software development. This repository contains
 1. 🗝️ Add your `RESEND_API_KEY` environment variable in `.env.local`.
 2. 📧 In the `send-email.ts` action file, replace the recipient email with your own.
 
-## Live Demo
-
-[View Live Portfolio](https://alivapriyadarshini.vercel.app/)
 
 ## Portfolio Website
 
-[Visit Website](https://alivapriyadarshini.vercel.app/)
+[Visit Website](https://faraz-personal-portfolio.vercel.app/)
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/alivapriyadarshini5/portfolio-with-next.git
+git clone https://github.com/shahfarazz/portfolio-with-next.git
 
 ```
 
@@ -46,7 +43,7 @@ cd portfolio-with-next
 
 3. Install dependencies::
 ```bash
-git clone https://github.com/alivapriyadarshini5/portfolio-with-next.git
+git clone https://github.com/shahfarazz/portfolio-with-next.git
 
 ```
 
