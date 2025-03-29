@@ -91,16 +91,7 @@ export default function Intro() {
 					<BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
 				</Link>
 
-				<div className="hidden sm:block"></div>
-
-				<a
-					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 hover:dark:bg-white/5"
-					href="https://www.linkedin.com/in/shah-faraz/details/featured/1714328017660/single-media-viewer/?profileId=ACoAADXXDfIBMRfvuEwI_Vi0dPFnDx2exPTsk2A"
-					target="_blank"
-				>
-					View my CV{' '}
-					<HiViewGrid className="opacity-60 group-hover:translate-y-1 transition" />
-				</a>
+				
 
 				<div className="hidden sm:block"></div>
 
