@@ -35,3 +35,23 @@ Explore the journey of my work in software development. This repository contains
 1. Clone the repository:
 ```bash
 git clone https://github.com/alivapriyadarshini5/portfolio-with-next.git
+
+```
+
+2. Navigate to the project directory::
+```bash
+cd portfolio-with-next
+
+```
+
+3. Install dependencies::
+```bash
+git clone https://github.com/alivapriyadarshini5/portfolio-with-next.git
+
+```
+
+
+4. Start the development server::
+```bash
+npm run dev
+```
