@@ -20,36 +20,20 @@ export default function About() {
 			<SectionHeading>About me 🤙</SectionHeading>
 			<>
 				<p className="mb-3">
-					After earning my degree in{' '}
-					<span className="font-medium">Computer Science</span>, I
-					blend academic prowess with practical experience. 🚀 With a
-					Bachelor of Sciences from Lahore, Pakistan, I've cultivated
-					a strong foundation, excelling in courses such as Software
-					Engineering, Databases, and Human Computer Interaction.
+					I'm currently pursuing my <span className="font-medium">Master’s in Computer Science</span> at Virginia Tech, with expected graduation in <span className="font-medium">May 2025</span>. 📚 With a strong academic foundation built during my undergraduate studies in Lahore, Pakistan, I've focused on areas like Software Engineering, Databases, and Human-Computer Interaction.
 				</p>
 				<p className="mb-3">
-					My technical toolkit spans diverse languages like Python,
-					Java, and JavaScript, along with proficiency in frameworks
-					like ReactJS and AngularJS. In professional roles at
-					Unilever Karachi and Clariba SEIDOR, I honed my skills in
-					digital transformation and collaborative research, driving
-					impactful projects like ROLL and a fraud detection pipeline
-					for clients in Iraq.
+					My technical toolkit includes Python, Java, JavaScript, and TypeScript, along with hands-on experience using frameworks like ReactJS and Flutter. Professionally, I’ve contributed to impactful projects in full-stack development, data analysis, and cloud infrastructure through roles at Reliance Aviation Tech, Rehnaa, and Virginia Tech’s Innovation Campus.
 				</p>
 				<p className="mb-3">
-					My commitment to excellence has earned me accolades like the
-					Deans Honors List Award, reflecting my dedication to
-					academic and professional success.
+					I’ve been fortunate to receive recognition like the Dean’s Honor List Award, but what truly drives me is creating practical, scalable solutions that make a difference.
 				</p>
 			</>
-
+	
 			<p>
-				<span className="italic">Away from the code editor</span>, I
-				find joy in soccer matches, cinematic marvels 🎬, harmonious
-				melodies 🎵, culinary explorations, and the simple joys of being
-				a food enthusiast. The pursuit of knowledge is my guiding light,
-				always propelling me towards new horizons. 🌱
+				<span className="italic">Outside the world of tech</span>, I enjoy long drives with a good playlist 🎶, catching a soccer match ⚽, diving into film and food 🍜, and exploring new places. I'm always eager to learn and grow, both as an engineer and as a human. 🌱
 			</p>
 		</motion.section>
 	);
+	
 }
