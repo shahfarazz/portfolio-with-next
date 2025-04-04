@@ -74,7 +74,9 @@ export default function Experience() {
                                 {item.title}
                             </h3>
                             <p className="font-normal !mt-0">{item.company}</p>
-                            {item.description}
+                            <div className="text-gray-700 dark:text-white/75">
+                                {item.description}
+                            </div>
                             {/* Conditionally render the video only if it exists */}
                             {item.video && <DynamicVideo src={item.video} />}
                         </VerticalTimelineElement>
