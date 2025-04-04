@@ -52,21 +52,39 @@ export const experiencesData: Experience[] = [
 		description: (
 			<ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
 				<li className="mb-2">
-					🚀 Contributed to developing a Flutter Mobile app and web
-					portal with 4 verticals for Pakistani startup Rehnaa,
-					streamlining property rental processes using Firebase and
-					Flutter.
+					🚀 Contributed to developing a Flutter mobile app and web portal for Rehnaa, a Pakistani proptech startup, streamlining rental processes across 4 verticals using Firebase and MongoDB.
 				</li>
 				<li className="mb-2">
-					🔄 Optimized user-centric solutions, leveraging Flutter, for
-					Rehnaa's platform, connecting landlords and tenants
-					seamlessly.
+					⚙️ Integrated Kafka and Elasticsearch for real-time search functionality and improved platform responsiveness.
+				</li>
+				<li className="mb-2">
+					☁️ Deployed backend services to the cloud ensuring scalable, fault-tolerant infrastructure.
 				</li>
 			</ul>
 		),
 		icon: React.createElement(CgWorkAlt),
 		date: 'May 2023 - Jul 2023',
 		video: '/rehnaa-showcase.MP4',
+	},
+
+	{
+		title: 'Software Engineer',
+		company: 'Reliance Aviation - Aviation Solutions',
+		description: (
+			<ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
+				<li className="mb-2">
+					🛫 Built a real-time aircraft fleet tracking dashboard using React and Firebase to improve operational monitoring and situational awareness.
+				</li>
+				<li className="mb-2">
+					🌦 Integrated weather APIs and live flight data to dynamically suggest optimal flight paths and improve safety compliance.
+				</li>
+				<li className="mb-2">
+					📊 Collaborated with aviation experts to align system design with industry standards, resulting in a more intuitive and domain-aligned user interface.
+				</li>
+			</ul>
+		),
+		icon: React.createElement(FaReact),
+		date: 'Feb 2022 - Jul 2023',
 	},
 
 	{
@@ -131,31 +149,33 @@ export const experiencesData: Experience[] = [
 		date: 'Aug 2022 - Dec 2022',
 		// link: 'http://faraznidhibookstore.me/FarazBookstoreReactTransact/',
 	},
+	{
+		title: 'Generative AI-Agents for Minecraft',
+		company: 'Virginia Tech',
+		description: (
+			<ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
+				<li className="mb-2">
+					🧠 Architected an AI-powered Minecraft assistant using AWS Bedrock, Lambda, and Mineflayer to interpret in-game chat commands and automate creative tasks like terrain generation and minigame setup.
+				</li>
+				<li className="mb-2">
+					🌍 Integrated real-time data pipelines and ML models to enhance responsiveness and simulate intelligent gameplay assistance.
+				</li>
+				<li className="mb-2">
+					☁️ Provisioned scalable cloud infrastructure with AWS ECS, CloudFormation, and CloudFront for x86 and GPU-accelerated environments.
+				</li>
+				<li className="mb-2">
+					🚀 Reduced server setup time by 30%, enabling non-technical players to launch multiplayer games and build without writing code.
+				</li>
+			</ul>
+		),
+		icon: React.createElement(LuGraduationCap),
+		date: 'Feb 2025 - Mar 2025',
+		video: '/Minecraft-short-demo.mp4',
+	}
+	
 ];
 
-export const projectsData = [
-	{
-		title: 'CorpComment',
-		description:
-			'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-		tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-		imageUrl: corpcommentImg,
-	},
-	{
-		title: 'rmtDev',
-		description:
-			'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-		tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-		imageUrl: rmtdevImg,
-	},
-	{
-		title: 'Word Analytics',
-		description:
-			'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-		tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-		imageUrl: wordanalyticsImg,
-	},
-] as const;
+
 
 export const skillsData = [
 	'Python',
