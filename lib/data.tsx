@@ -47,6 +47,51 @@ type Experience = {
 
 export const experiencesData: Experience[] = [
 	{
+		title: 'Generative AI-Agents for Minecraft',
+		company: 'Virginia Tech',
+		description: (
+			<ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
+				<li className="mb-2">
+					🧠 Architected an AI-powered Minecraft assistant using AWS Bedrock, Lambda, and Mineflayer to interpret in-game chat commands and automate creative tasks like terrain generation and minigame setup.
+				</li>
+				<li className="mb-2">
+					🌍 Integrated real-time data pipelines and ML models to enhance responsiveness and simulate intelligent gameplay assistance.
+				</li>
+				<li className="mb-2">
+					☁️ Provisioned scalable cloud infrastructure with AWS ECS, CloudFormation, and CloudFront for x86 and GPU-accelerated environments.
+				</li>
+				<li className="mb-2">
+					🚀 Reduced server setup time by 30%, enabling non-technical players to launch multiplayer games and build without writing code.
+				</li>
+			</ul>
+		),
+		icon: React.createElement(LuGraduationCap),
+		date: 'Feb 2025 - Mar 2025',
+		video: '/Minecraft-short-demo.mp4',
+	},
+	{
+		title: 'Graduate Intern, Data Analysis',
+		company: 'Virginia Tech',
+		description: (
+			<ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
+				<li className="mb-2">
+					📊 Engineered scalable ETL pipelines using Python and AWS Lambda to unify student engagement data from platforms like Handshake, Banner, and Canvas for 10,000+ records.
+				</li>
+				<li className="mb-2">
+					📈 Built interactive dashboards in Power BI and Tableau, empowering academic advisors and career services to track student success metrics and intervention outcomes.
+				</li>
+				<li className="mb-2">
+					🔎 Conducted data mapping and correlation analysis to align co-curricular engagement with post-grad outcomes, supporting institutional reporting needs.
+				</li>
+				<li className="mb-2">
+					🚀 Improved reporting accuracy and reduced manual data prep time by 40% through automation and standardized data modeling.
+				</li>
+			</ul>
+		),
+		icon: React.createElement(LuGraduationCap),
+		date: 'May 2024 – Present',
+	},	
+	{
 		title: 'Mobile Developer',
 		company: 'Rehnaa - Startup',
 		description: (
@@ -148,29 +193,6 @@ export const experiencesData: Experience[] = [
 		icon: React.createElement(LuGraduationCap),
 		date: 'Aug 2022 - Dec 2022',
 		// link: 'http://faraznidhibookstore.me/FarazBookstoreReactTransact/',
-	},
-	{
-		title: 'Generative AI-Agents for Minecraft',
-		company: 'Virginia Tech',
-		description: (
-			<ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
-				<li className="mb-2">
-					🧠 Architected an AI-powered Minecraft assistant using AWS Bedrock, Lambda, and Mineflayer to interpret in-game chat commands and automate creative tasks like terrain generation and minigame setup.
-				</li>
-				<li className="mb-2">
-					🌍 Integrated real-time data pipelines and ML models to enhance responsiveness and simulate intelligent gameplay assistance.
-				</li>
-				<li className="mb-2">
-					☁️ Provisioned scalable cloud infrastructure with AWS ECS, CloudFormation, and CloudFront for x86 and GPU-accelerated environments.
-				</li>
-				<li className="mb-2">
-					🚀 Reduced server setup time by 30%, enabling non-technical players to launch multiplayer games and build without writing code.
-				</li>
-			</ul>
-		),
-		icon: React.createElement(LuGraduationCap),
-		date: 'Feb 2025 - Mar 2025',
-		video: '/Minecraft-short-demo.mp4',
 	}
 	
 ];
