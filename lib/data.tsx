@@ -200,38 +200,22 @@ export const experiencesData: Experience[] = [
 
 
 export const skillsData = [
-	'Python',
-	'Java',
-	'C++',
-	'SQL',
-	'JavaScript',
-	'TypeScript',
-	'HTML',
-	'CSS',
-	'MATLAB',
-	'Kotlin',
-	'Dart',
-	'Solidity',
-	'ReactJS',
-	'AngularJS',
-	'Express.js',
-	'NumPy',
-	'SciPy',
-	'Pandas',
-	'Matplotlib',
-	'PyTorch',
-	'MySQL',
-	'PostgreSQL',
-	'MongoDB',
-	'Selenium',
-	'Jupyter',
-	'Flutter',
-	'Git',
-	'Bash',
-	'Snowflake',
-	'DataIKU',
-	'Vercel',
-	'Wordpress',
-	'MetaMask',
-	'Latex',
+	// Languages
+	"Python", "Java", "JavaScript", "TypeScript", "C++", "C#", "Kotlin", "Dart", "Solidity", "SQL", "MATLAB", "LaTeX",
+
+	// Frameworks & Libraries
+	"ReactJS", "AngularJS", "Flutter", "Express.js", "Node.js", "Spring Boot", "Django", "Flask", "Redux",
+
+	// Data & ML
+	"NumPy", "Pandas", "SciPy", "Matplotlib", "Scikit-learn", "TensorFlow", "Jupyter", "DataIKU",
+
+	// Databases
+	"MySQL", "PostgreSQL", "MongoDB", "Snowflake",
+
+	// Tools & DevOps
+	"Git", "Docker", "Bash", "Postman", "Firebase", "Selenium", "Vercel", "Figma", "MetaMask",
+
+	// Cloud
+	"AWS (Lambda, ECS, CloudFormation)", "Google Cloud Platform"
 ] as const;
+
