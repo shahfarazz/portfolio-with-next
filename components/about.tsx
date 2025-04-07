@@ -17,23 +17,24 @@ export default function About() {
 			transition={{ delay: 0.175 }}
 			id="about"
 		>
-			<SectionHeading>About me 🤙</SectionHeading>
+			<SectionHeading>About Me</SectionHeading>
 			<>
 				<p className="mb-3">
-					I'm currently pursuing my <span className="font-medium">Master’s in Computer Science</span> at Virginia Tech, with expected graduation in <span className="font-medium">May 2025</span>. 📚 With a strong academic foundation built during my undergraduate studies in Lahore, Pakistan, I've focused on areas like Software Engineering, Databases, and Human-Computer Interaction.
+					I'm a Master’s student in Computer Science at Virginia Tech, graduating <span className="font-medium">May 2025</span>. Before that, I studied in Lahore, Pakistan, building a foundation in software engineering, databases, and human-computer interaction.
 				</p>
 				<p className="mb-3">
-					My technical toolkit includes Python, Java, JavaScript, and TypeScript, along with hands-on experience using frameworks like ReactJS and Flutter. Professionally, I’ve contributed to impactful projects in full-stack development, data analysis, and cloud infrastructure through roles at Reliance Aviation Tech, Rehnaa, and Virginia Tech’s Innovation Campus.
+					From full-stack mobile apps to scalable cloud projects, I’ve worked across teams at Reliance Aviation Tech, Rehnaa, and Virginia Tech’s Innovation Campus. My toolkit includes Python, Java, JavaScript, TypeScript, and frameworks like React and Flutter.
 				</p>
 				<p className="mb-3">
-					I’ve been fortunate to receive recognition like the Dean’s Honor List Award, but what truly drives me is creating practical, scalable solutions that make a difference.
+					What keeps me hooked? Solving real-world problems with clean, thoughtful code. Bonus if it helps someone else do something faster, smarter, or just plain better.
 				</p>
 			</>
 	
 			<p>
-				<span className="italic">Outside the world of tech</span>, I enjoy long drives with a good playlist 🎶, catching a soccer match ⚽, diving into film and food 🍜, and exploring new places. I'm always eager to learn and grow, both as an engineer and as a human. 🌱
+				<span className="italic">When I’m not coding</span>, I’m probably on a long drive with a loud playlist, catching a soccer match, chasing good food, or watching a film that makes me question my life choices. Always learning—on and off the screen.
 			</p>
 		</motion.section>
 	);
+	
 	
 }
